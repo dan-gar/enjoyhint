@@ -325,13 +325,13 @@ var EnjoyHint = function (_options) {
 
     /********************* PUBLIC METHODS ***************************************/
 
-    window.addEventListener('resize', function() {
+    // window.addEventListener('resize', function() {
 
-        if ($event_element != null) {
+    //     if ($event_element != null) {
 
-            $body.enjoyhint('redo_events_near_rect', $event_element[0].getBoundingClientRect());
-        }
-    });
+    //         $body.enjoyhint('redo_events_near_rect', $event_element[0].getBoundingClientRect());
+    //     }
+    // });
 
     that.stop = function() {
 
