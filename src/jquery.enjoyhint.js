@@ -133,7 +133,7 @@ CanvasRenderingContext2D.prototype.roundRect = function (x, y, w, h, r) {
 
                 that.layer = new Kinetic.Layer();
                 that.rect = new Kinetic.Rect({
-                    fill: 'rgba(0,0,0,0.6)',
+                    fill: 'rgba(0,0,0,0.8)',
                     width: that.canvas_size.w,
                     height: that.canvas_size.h
                 });
@@ -871,7 +871,7 @@ CanvasRenderingContext2D.prototype.roundRect = function (x, y, w, h, r) {
                     }
 
                     that.$skip_btn.css({
-                        left: left_skip,
+                        left: left_skip + 25,
                         top: label_y + label_height + 20
                     });
 
